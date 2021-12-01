@@ -1,0 +1,60 @@
+<form>
+    <br>
+    <label for="NIF">NIF:</label>
+    <input type="text" id="fname" name="NIF">
+    <br>
+
+    <br>
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre" name="Nombre">
+    <br>
+
+    <br>
+    <label for="Apellidos">Apellidos:</label>
+    <input type="text" id="Apellidos" name="Apellidos">
+    <br>
+
+
+    <p>Edad:</p>
+
+
+    <input type="radio" id="15-19" name="Edad" value="15-19">
+    <label for="15-19">15-19</label><br>
+    <input type="radio" id="20-29" name="Edad" value="20-29">
+    <label for="20-29">20-29</label><br>
+    <input type="radio" id="30-40" name="Edad" value="30-40">
+    <label for="30-40">30-40</label>
+
+
+    <p>Estado Civil:</p>
+
+    <input list="Estadocivil">
+
+    <datalist id="Estadocivil">
+        <option value="Soltero">
+        <option value="Casado">
+        <option value="Divorciado">
+    </datalist>
+
+    <p>Aficiones:</p>
+
+
+    <input type="checkbox" id="Aficion1" name="Aficion1" value="Cine">
+    <label for="Aficion1">Cine</label><br>
+    <input type="checkbox" id="Aficion2" name="Aficion2" value="Deportes">
+    <label for="Aficion2">Deportes</label><br>
+    <input type="checkbox" id="Aficion3" name="Aficion3" value="Lectura">
+    <label for="Aficion3">Lectura</label><br>
+    <input type="checkbox" id="Aficion4" name="Aficion4" value="Senderismo">
+    <label for="Aficion4">Senderismo</label>
+
+
+    <p>Comentarios:</p>
+
+    <textarea name="comment" rows=10 cols=60>
+    Escribe aquí tus comentarios
+    </textarea><br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
